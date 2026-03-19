@@ -11,7 +11,7 @@ Target_IP=$1
 Output_Folder="recon_$Target_IP"
 
 #2. Create a directory for the results (if it does not exist)
-mkdir -p Output_Folder
+mkdir -p $Output_Folder
 
 echo "Starting recon over target: $Target_IP " 
 echo "Results in: $Output_Folder/"
