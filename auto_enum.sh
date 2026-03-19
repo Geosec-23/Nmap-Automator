@@ -8,7 +8,7 @@ if [ $# -eq 0 ]; then
 fi
 
 Target_IP=$1
-$Output_Folder="recon_$Target_IP"
+Output_Folder="recon_$Target_IP"
 
 #2. Create a directory for the results (if it does not exist)
 mkdir -p $Output_Folder
